@@ -1,0 +1,36 @@
+name: atom_flow_app
+description: ATOM Flow Systems - Mobile App (Base)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  shared_preferences: ^2.2.3
+  provider: ^6.1.2
+  google_fonts: ^6.2.1
+  fl_chart: ^0.68.0
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  web: ^1.1.0
+  path_provider: ^2.1.5
+  share_plus: ^12.0.2
+  pdf: ^3.11.1
+  printing: ^5.13.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/atom_logo.png
+    - assets/images/atom_link_logo.png
+    - assets/images/robot_face_v2.png
